@@ -1,0 +1,88 @@
+html {
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#040;
+}
+body{
+    background-color: #dff;
+    width: 60%;
+    margin:auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #888;
+    padding-top: 5px;
+    padding-bottom: 20px; 
+}
+.kulso{
+    margin:25px
+} 
+
+h1{
+    font-family: Monotype Corsiva;
+    color:#040;
+}
+.cím {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border:1px solid #333; 
+    outline: 4px outset #777;
+    outline-offset: 3px;
+    background-color:#adffce;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-spacing: 3px;
+
+}
+th{
+    background-color:rgb(35,133,35);
+}
+
+td{
+    background-color: #adffce;
+
+}
+tr:last-of-type td {
+    background-color: rgb(35,129,35);
+    height: 5px;
+}
+tr td:last-of-type, th:last-of-type {
+    text-align: right;
+} 
+tr td:first-of-type, th:first-child {
+    text-align: center;
+}
+tr td:nth-child(2), th:nth-child(2) {
+    text-align: right;
+}
+
+#menu td{
+    background-color: #adffce;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 8px;
+}
+
+#menu{
+    outline: 2px outset #777;
+    outline-offset: -1px;
+    margin-top: 20px;
+
+}
+.uto{
+    float: left;
+    width: 120px;
+}
+.egyeb {
+    margin-top: 20px;
+}
+hr{
+    height:2px ;
+    border:none;
+    background-color:rgb(35,129,35) ;
+}
+a:link{
+    color:rgb(4,48,4)
+}
